@@ -1,47 +1,39 @@
 ---
-sidebar_position: 1
+
+id: NEAR-SDK-JS
+title: NEAR-SDK-JS Documentation 
+hide_table_of_contents: true
+slug: /
 ---
 
-# Tutorial Intro
+# NEAR-SDK-JS - Version 0.7.0
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The NEAR SDK JS is a complete library that enables users to write smart contracts in Javascritpt, compile them down to `.wasm` files and deploy them onto the NEAR blockchain!
 
-## Getting Started
+## Resources
 
-Get started by **creating a new site**.
+Here is a list of additional resources that we hope you find useful:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- [NEAR-SDK-JS Github Repository](https://github.com/near/near-sdk-js)
+- [NEAR SDK Documentation](https://docs.near.org/sdk/js/introduction)
+- [NFT Zero to Hero JavaScript Edition](https://docs.near.org/tutorials/nfts/js/introduction)
 
-### What you'll need
+## Getting started
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+1. Download and install [Node.js](https://nodejs.org/en/)
+2. Create a new Javascript project using our [quickstart guide](https://docs.near.org/develop/quickstart-guide)
+3. Read our docs on [how to write a smart contract](https://docs.near.org/develop/contracts/anatomy)
+4. Find Examples [here.](https://github.com/near/near-sdk-js/tree/develop/examples/src)
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**.
+## Modules 
 
-The classic template will automatically be added to your project after you run the command:
+### Collections 
+- [Vector](/docs/api/classes#vector)
+- [LookupMap](http://localhost:3000/docs/api/#lookupmap)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Developer Support Resources 
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+[Discord](https://near.chat)
+[Zulip](https://near.zulipchat.com/)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

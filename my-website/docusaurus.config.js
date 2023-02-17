@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NEAR-SDK-JS Site',
+  title: 'NEAR-SDK-JS',
   tagline: 'NEAR-SDK-JS Documentation',
   favicon: "img/near_icon.svg",
 
@@ -85,20 +85,6 @@ const config = {
           src: "img/near_logo.svg",
           srcDark: 'img/near_logo_white.svg',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
       },
       footer: {
         style: 'dark',
